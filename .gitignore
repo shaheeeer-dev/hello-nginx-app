@@ -1,0 +1,12 @@
+# Maven
+target/
+backend/target/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+backend/*.log
