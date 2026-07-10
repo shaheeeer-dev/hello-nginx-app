@@ -2,21 +2,24 @@
 
 ```
 hello-nginx-app/
-
+│
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
 ├── backend/
-│   ├── package.json
-│   └── server.js
+│   ├── pom.xml
+│   └── src/
+│       └── main/
+│           └── java/
+│               └── Main.java
 │
 ├── nginx/
 │   └── default.conf
 │
-├── README.md
-│
-└── .gitignore
+├── Jenkinsfile
+├── .gitignore
+└── README.md
 
 ```
